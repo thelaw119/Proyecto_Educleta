@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/nosotros', (req, res) => {
-  res.render('./views/nosotros');
+  res.render('nosotros');
   console.log(res);
 });
 
