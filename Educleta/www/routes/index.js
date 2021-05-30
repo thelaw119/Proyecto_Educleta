@@ -6,7 +6,8 @@ router.get('/', (req, res) => {
 });
 
 router.get('/nosotros', (req, res) => {
-  res.render('nosotros', { title: 'nosotros Page' });
+  res.render('./views/nosotros');
+  console.log(res);
 });
 
 router.get('/mision_vision', (req, res) => {
