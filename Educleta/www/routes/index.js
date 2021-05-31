@@ -1,43 +1,50 @@
+/*INDEX CREADO PARA EJECUTARLO DESDE LA WEB CON ENRUTAMIENTO
+ Este codigo esta inhabilitado ya que solo se usara en android
+ se puede descomentar para hacer pruebas en la web con Express y NODE.JS*/
+
+/*
 const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.render('index', { title: 'First Web Node' });
+  res.render('index');
 });
 
 router.get('/nosotros', (req, res) => {
   res.render('nosotros');
-  console.log(res);
+  console.log(res.render('nosotros'));
 });
 
 router.get('/mision_vision', (req, res) => {
-  res.render('mision_vision', { title: 'mision vision Page' });
+  res.render('mision_vision');
 });
 
 router.get('/aliados', (req, res) => {
-  res.render('aliados', { title: 'aliados Page' });
+  res.render('aliados');
 });
 
 router.get('/prensa', (req, res) => {
-  res.render('prensa', { title: 'prensa Page' });
+  res.render('prensa');
 });
 
 router.get('/servicios', (req, res) => {
-  res.render('servicios', { title: 'servicios Page' });
+  res.render('servicios');
 });
 
 router.get('/noticias', (req, res) => {
-  res.render('noticias', { title: 'noticias Page' });
+  res.render('noticias');
 });
 
 router.get('/academia', (req, res) => {
-  res.render('academia', { title: 'academia Page' });
+  res.render('academia');
 });
 
 router.get('/contacto', (req, res) => {
-  res.render('contacto', { title: 'contacto Page' });
+  res.render('contacto');
 });
 
 
 
 module.exports = router;
+
+*/

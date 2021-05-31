@@ -13,6 +13,7 @@
         Apache Cordova Team
     </author>
     <content src="views/index.ejs" />
+ 
     <access origin="*" />
     <allow-intent href="http://*/*" />
 
